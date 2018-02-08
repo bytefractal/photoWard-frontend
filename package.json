@@ -9,8 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "github-build": "ng build --prod --base-href '/photoWard-frontend'",
-    "gdeploy": "npm run github-build && ngh"
+    "github-build": "ng build --prod --base-href '/photoWard-frontend/'",
+    "ghdeploy": "npm run github-build && ngh"
   },
   "private": true,
   "dependencies": {
